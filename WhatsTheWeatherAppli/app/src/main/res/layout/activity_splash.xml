@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tint_blue"
+    tools:context=".SplashActivity">
+
+
+    <!--<ImageView
+        android:id="@+id/sun"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:elevation="@dimen/_10sdp"
+        android:src="@drawable/sun" />-->
+
+    <TextView
+        android:id="@+id/logo_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cloud2"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="104dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="@dimen/_35ssp" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14ssp" />
+
+    <ImageView
+        android:id="@+id/cloud1"
+        android:layout_width="@dimen/_110sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/white_cloud_big"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_70sdp"
+        android:layout_marginStart="@dimen/_20sdp"/>
+
+    <ImageView
+        android:id="@+id/cloud2"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:src="@drawable/white_cloud_big" />
+
+    <ImageView
+        android:id="@+id/cloud3"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/white_cloud_big"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_10sdp"/>
+
+</RelativeLayout>

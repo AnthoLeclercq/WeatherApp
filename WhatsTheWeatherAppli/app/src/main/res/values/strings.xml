@@ -1,0 +1,39 @@
+<resources>
+<string name="app_name">What\'s the weather</string>
+    <string name="welcome">Welcome</string>
+<string name="city_name">Town</string>
+<string name="weather_status">Not updated</string>
+<string name="celcius">C</string>
+<string name="degree">o</string>
+<string name="farenheat">F</string>
+<string name="Cmin">C-</string>
+<string name="Cmax">C+</string>
+<string name="Fmin">F-</string>
+<string name="Fmax">F+</string>
+<string name="heat_value">---</string>
+<string name="day_value">-</string>
+<string name="wind_value">-.-</string>
+<string name="wind_unit">mph</string>
+<string name="pressu_value">----</string>
+<string name="presuue_unit">hPa</string>
+<string name="humidity_value">--</string>
+<string name="humidity_unit">%</string>
+<string name="pollution_value">--</string>
+<string name="pollution_unit">%</string>
+
+<string name="pollution_level">------</string>
+<string name="pollution_good">Good</string>
+<string name="time">12h00</string>
+<string name="day">Day</string>
+
+<string name="details">Details</string>
+<string name="favorites">Saved Locations</string>
+
+
+<string name="todays_weather">Forecasts 24 hours</string>
+<string name="week_weather">Forecasts 5 days</string>
+<string name="search_city">Search town</string>
+<string name="forecast_info">Forecasts 24h</string>
+<string name="weathery">What\'s the weather</string>
+<string name="know_how_you_feel_from_outside">Feels_like</string>
+</resources>
